@@ -4,10 +4,16 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-h1 {
-  font-family: "Montserrat", sans-serif;
+html {
+  background-color:
 }
 
-h2 {
+h1, h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #21140d;
+}
+
+nav {
     font-family: "Open Sans Condensed", sans-serif;
+    color: #2a1910;
 }
