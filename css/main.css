@@ -8,12 +8,12 @@ html {
   background-color: #faebd7;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
   color: #4c2b1a;
 }
 
-nav {
+nav, ul {
     font-family: "Open Sans Condensed", sans-serif;
     color: #8c4f2f;
 }
@@ -52,5 +52,4 @@ li {
   width: 30px;
   text-align: center;
   text-decoration: none;
-  border-radius: 50%;
 }
