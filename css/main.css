@@ -27,28 +27,38 @@ li {
 }
 
 .holiday {
-
+  width: 100%;
 }
 
 .chocolate {
-
+  width: 100%;
 }
 
 .add-ons {
-
+  width: 100%;
 }
 
 .about {
-
+  width: 100%;
+  position: relative;
 }
 
 .contact {
+  width: 100%;
+  position: relative;
+}
 
+.contact-text {
+  max-width: 50em;
+  position: absolute;
+  top: 1.5rem;
+  left: 50%;
+  transform: translate(-70% 20%);
+  color: #faebd7;
 }
 
 .footer {
   padding: 20px;
-  font-size: 30px;
   width: 30px;
   text-align: center;
   text-decoration: none;
