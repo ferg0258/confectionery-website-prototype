@@ -79,6 +79,10 @@ header {
   text-align: center;
 }
 
+nav ul {
+  padding: 0;
+}
+
 nav ul li {
   padding: 0px 20px;
 }
@@ -146,10 +150,11 @@ ul li {
   }
 
   .contact {
-    position: relative;
-    height: 335px;
-    max-width: 515px;
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    max-width: 52em;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
