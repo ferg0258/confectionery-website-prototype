@@ -15,8 +15,16 @@ h1, h2, h3 {
   color: #4c2b1a;
 }
 
+h1 {
+  font-size: 4rem;
+}
+
 h2 {
   clear: both;
+}
+
+nav {
+  font-size: 1.5rem;
 }
 
 nav, ul, p {
