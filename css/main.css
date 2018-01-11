@@ -84,7 +84,7 @@ li {
   position: absolute;
   top: 1em;
   left: 50%;
-  transform: translate(-70% 20%);
+  transform: translate(-70%, 20%);
 }
 
 .contact-text p {
@@ -136,6 +136,13 @@ ul li {
 .snapchat {
   width: 30px;
   padding: 5px;
+}
+
+@media only screen and (min-width: 25em) {
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+    margin-bottom: 1.3rem;
 }
 
 @media only screen and (min-width: 38em) {
